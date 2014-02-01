@@ -1,0 +1,7 @@
+Script used to calculate the global and local alignment scores of DNA sequences
+
+Usage:
+
+./align input.fasta scoring.txt
+
+Where input.fasta is the two sequences to be aligned and scoring.txt is a table of scores for each match. This script uses a constant gap penalty of -5.
